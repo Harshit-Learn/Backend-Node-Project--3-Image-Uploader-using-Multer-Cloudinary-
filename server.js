@@ -2,6 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import multer from 'multer'
 import path from 'path'
+import ejs from 'ejs'
 
 
 const app = express();
